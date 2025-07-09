@@ -1,16 +1,19 @@
-# overdrive README
+# overdrive color theme
 
-## Working with Markdown
+## Install Locally
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+Install vsce (if not already):
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+> npm install -g @vscode/vsce
 
-## For more information
+#Package your theme:
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+> vsce package
+
+This creates a .vsix file (e.g., overdrive-0.0.1.vsix).
+
+Install in VS Code:
+
+> code --install-extension overdrive-0.0.1.vsix
 
 **Enjoy!**
