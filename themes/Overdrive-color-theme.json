@@ -216,7 +216,8 @@
       "source.js support.type"
     ],
     "settings": {
-      "foreground": "#01A3F4"
+      "foreground": "#01A3F4",
+      "fontStyle": "italic"
     }
   },
   {
