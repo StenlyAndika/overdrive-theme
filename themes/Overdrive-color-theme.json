@@ -201,7 +201,8 @@
       "entity.name.tag"
     ],
     "settings": {
-      "foreground": "#E50046"
+      "foreground": "#E50046",
+      "fontStyle": "italic",
     }
   },
   {
