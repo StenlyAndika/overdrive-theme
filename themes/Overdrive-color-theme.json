@@ -51,8 +51,8 @@
     "statusBarItem.remoteForeground": "#000",
     // Change explorer active item color
     "list.activeSelectionForeground": "#FFFF00",
-    "menu.selectionBackground": "#33336680",
-    "list.inactiveSelectionBackground": "#232323",
+    "menu.selectionBackground": "#333366",
+    "list.inactiveSelectionBackground": "#333366",
     // Command Palette background and text
     "quickInput.background": "#141414",
     "quickInput.foreground": "#FFFFFF",
@@ -65,7 +65,7 @@
     "button.background": "#FFFF00",
     "button.hoverBackground": "#FFFF0095",
     "button.foreground": "#000",
-    "focusBorder": "#FFFF00",
+    "focusBorder": "#140e1a",
     "icon.foreground": "#A0A0A0",
     "input.background": "#1C1C1C",
     "list.activeSelectionBackground": "#232323",
@@ -112,189 +112,179 @@
         "foreground": "#FFFF00"
       }
     },
-    {
-      "name": "Markdown punctuation",
-      "scope": [
-        "punctuation.definition.metadata.markdown",
-        "punctuation.definition.string.begin.markdown",
-        "punctuation.definition.string.end.markdown"
-      ],
-      "settings": {
-        "foreground": "#D5CED9"
-      }
-    },
-    {
-      "name": "Variables, tags, and property names",
-      "scope": [
-        "variable",
-        "support.variable",
-        "entity.name.tag.yaml",
-        "constant.character.entity.html",
-        "source.css entity.name.tag.reference",
-        "source.css entity.other.attribute-name.parent-selector",
-        "meta.structure.dictionary.json support.type.property-name",
-        "beginning.punctuation.definition.list.markdown"
-      ],
-      "settings": {
-        "foreground": "#A1E3F9"
-      }
-    },
-    {
-      "name": "Blade constructs and echo",
-      "scope": [
-        "support.function.construct.begin.blade",
-        "meta.function.echo.blade"
-      ],
-      "settings": {
-        "foreground": "#A1E3F9"
-      }
-    },
-    {
-      "name": "Constants, numbers, and bold text",
-      "scope": [
-        "markup.bold",
-        "constant.numeric",
-        "meta.group.regexp",
-        "constant.other",
-        "support.constant",
-        "entity.other.attribute-name",
-        "support.type.exception.python",
-        "source.css keyword.other.unit",
-        "variable.other.object.property.js.jsx",
-        "variable.other.object.js"
-      ],
-      "settings": {
-        "foreground": "#f39c12"
-      }
-    },
-    {
-      "name": "Attribute names italicized",
-      "scope": [
-        "entity.other.attribute-name"
-      ],
-      "settings": {
-        "fontStyle": "italic"
-      }
-    },
-    {
-      "name": "Function names italic (includes Blade routes)",
-      "scope": [
-        "entity.name.function",
-        "support.function",
-        "meta.function-call.generic.python"
-      ],
-      "settings": {
-        "foreground": "#FEBA17",
-        "fontStyle": "italic"
-      }
-    },
-    {
-      "name": "Function and attribute names non-italic",
-      "scope": [
-        "markup.list",
-        "text.xml string",
-        "meta.at-rule.extend",
-        "meta.at-rule.extend support.constant",
-        "entity.other.inherited-class",
-        "entity.other.keyframe-offset.css",
-        "text.html.markdown string.quoted",
-        "entity.other.attribute-name.class.jade",
-        "source.css entity.other.attribute-name",
-        "text.xml punctuation.definition.string"
-      ],
-      "settings": {
-        "foreground": "#FEBA17"
-      }
-    },
-    {
-      "name": "Special keywords like this/self and headings",
-      "scope": [
-        "markup.heading",
-        "variable.language.this.js",
-        "variable.language.special.self.python"
-      ],
-      "settings": {
-        "foreground": "#ff00aa"
-      }
-    },
-    {
-      "name": "Embedded code block punctuation",
-      "scope": [
-        "punctuation.definition.interpolation",
-        "punctuation.section.embedded.begin.php",
-        "punctuation.section.embedded.end.php",
-        "punctuation.section.embedded.begin.ruby",
-        "punctuation.section.embedded.end.ruby",
-        "punctuation.definition.template-expression",
-        "entity.name.tag"
-      ],
-      "settings": {
-        "foreground": "#E50046",
-        "fontStyle": "italic"
-      }
-    },
-    {
-      "name": "Keywords, italic elements, and types",
-      "scope": [
-        "keyword",
-        "storage",
-        "markup.italic",
-        "meta.link",
-        "meta.image",
-        "source.js support.type"
-      ],
-      "settings": {
-        "foreground": "#01A3F4",
-        "fontStyle": "italic"
-      }
-    },
-    {
-      "name": "Regular expressions and changed diff",
-      "scope": [
-        "string.regexp",
-        "markup.changed"
-      ],
-      "settings": {
-        "foreground": "#7cb7ff"
-      }
-    },
-    {
-      "name": "Operators, classes, and deletions",
-      "scope": [
-        "support.class",
-        "keyword.operator"
-      ],
-      "settings": {
-        "foreground": "#E83F25"
-      }
-    },
-    {
-      "name": "Strings and inserted text",
-      "scope": [
-        "string",
-        "text.html.php string",
-        "markup.inline.raw",
-        "markup.inserted",
-        "punctuation.definition.string",
-        "punctuation.definition.markdown",
-        "text.html meta.embedded source.js string",
-        "text.html.php punctuation.definition.string",
-        "text.html meta.embedded source.js punctuation.definition.string",
-        "text.html punctuation.definition.string",
-        "text.html string"
-      ],
-      "settings": {
-        "foreground": "#00FF9C"
-      }
-    },
-    {
-      "name": "Inherited class with underline",
-      "scope": [
-        "entity.other.inherited-class"
-      ],
-      "settings": {
-        "fontStyle": "underline"
-      }
-    }
-  ]
+		{
+			"name": "Strings and inserted text",
+			"scope": [
+				"string",
+				"text.html.php string",
+				"markup.inline.raw",
+				"markup.inserted",
+				"punctuation.definition.string",
+				"punctuation.definition.markdown",
+				"text.html meta.embedded source.js string",
+				"text.html.php punctuation.definition.string",
+				"text.html meta.embedded source.js punctuation.definition.string",
+				"text.html punctuation.definition.string",
+				"text.html string"
+			],
+			"settings": {
+				"foreground": "#00FF9C"
+			}
+		},
+		{
+			"name": "Constants, numbers, and bold text",
+			"scope": [
+				"markup.bold",
+				"constant.numeric",
+				"meta.group.regexp",
+				"constant.other",
+				"support.constant",
+				"entity.other.attribute-name",
+				"support.type.exception.python",
+				"source.css keyword.other.unit",
+				"variable.other.object.property.js.jsx",
+				"variable.other.object.js"
+			],
+			"settings": {
+				"foreground": "#FEBA17"
+			}
+		},
+		{
+			"name": "Keywords, italic elements, and types",
+			"scope": [
+				"keyword",
+				"storage",
+				"markup.italic",
+				"meta.link",
+				"meta.image",
+				"source.js support.type"
+			],
+			"settings": {
+				"foreground": "#01A3F4",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Italic user-defined and Python function names",
+			"scope": [
+				"entity.name.function",
+				"meta.function-call.generic.python"
+			],
+			"settings": {
+				"foreground": "#FEBA17",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Blade echo and built-in function calls",
+			"scope": [
+				"support.function",
+				"meta.function.echo.blade"
+			],
+			"settings": {
+				"foreground": "#a277ff"
+			}
+		},
+		{
+			"name": "Variables, tags, and property names",
+			"scope": [
+				"variable",
+				"support.variable",
+				"entity.name.tag.yaml",
+				"constant.character.entity.html",
+				"source.css entity.name.tag.reference",
+				"source.css entity.other.attribute-name.parent-selector",
+				"meta.structure.dictionary.json support.type.property-name",
+				"beginning.punctuation.definition.list.markdown"
+			],
+			"settings": {
+				"foreground": "#A1E3F9"
+			}
+		},
+		{
+			"name": "Attribute names italicized",
+			"scope": [
+				"entity.other.attribute-name"
+			],
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Function and attribute names non-italic",
+			"scope": [
+				"markup.list",
+				"text.xml string",
+				"meta.at-rule.extend",
+				"meta.at-rule.extend support.constant",
+				"entity.other.inherited-class",
+				"entity.other.keyframe-offset.css",
+				"text.html.markdown string.quoted",
+				"entity.other.attribute-name.class.jade",
+				"source.css entity.other.attribute-name",
+				"text.xml punctuation.definition.string"
+			],
+			"settings": {
+				"foreground": "#FEBA17"
+			}
+		},
+		{
+			"name": "Embedded code block punctuation",
+			"scope": [
+				"punctuation.definition.interpolation",
+				"punctuation.section.embedded.begin.php",
+				"punctuation.section.embedded.end.php",
+				"punctuation.section.embedded.begin.ruby",
+				"punctuation.section.embedded.end.ruby",
+				"punctuation.definition.template-expression",
+				"entity.name.tag"
+			],
+			"settings": {
+				"foreground": "#E50046",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Markdown punctuation",
+			"scope": [
+				"punctuation.definition.metadata.markdown",
+				"punctuation.definition.string.begin.markdown",
+				"punctuation.definition.string.end.markdown"
+			],
+			"settings": {
+				"foreground": "#D5CED9"
+			}
+		},
+		{
+			"name": "Operators, classes, and deletions",
+			"scope": [
+				"support.class",
+				"keyword.operator"
+			],
+			"settings": {
+				"foreground": "#E83F25"
+			}
+		},
+		{
+			"name": "Regular expressions and changed diff",
+			"scope": [
+				"string.regexp",
+				"markup.changed"
+			],
+			"settings": {
+				"foreground": "#7cb7ff"
+			}
+		},
+		{
+			"name": "Special keywords like this/self and headings",
+			"scope": [
+				"markup.heading",
+				"variable.language.this.js",
+				"variable.language.special.self.python"
+			],
+			"settings": {
+				"foreground": "#ff00aa"
+			}
+		}
+    ]
 }
