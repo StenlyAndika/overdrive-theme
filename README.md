@@ -1,7 +1,7 @@
 <h1 align="center">Overdrive Theme</h1>
-<!-- <p align="center">
-  <img alt="icon" width="20%" src="">
-</p> -->
+<p align="center">
+  <img alt="icon" width="20%" src="/logo.png">
+</p>
 
 A simple and friendly vscode theme.
 
