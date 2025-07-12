@@ -1,9 +1,9 @@
 {
-  "name": "overdrive",
-  "displayName": "Overdrive",
+  "name": "overdrivetheme",
+  "displayName": "Overdrive Theme",
   "publisher": "StenlyAndika",
   "description": "Simple dark theme for VS Code.",
-  "version": "1.0.2",
+  "version": "0.0.2",
   "license": "MIT",
   "repository": {
     "type": "git",
