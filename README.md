@@ -1,19 +1,26 @@
-# overdrive color theme
+<h1 align="center">Overdrive Theme</h1>
+<p align="center">
+  <img alt="icon" width="20%" src="https://raw.githubusercontent.com/shaodahong/theme-bear/master/icon.png">
+</p>
 
-## Install Locally
+A simple and friendly vscode theme.
 
-**Install vsce (if not already):**
+- [x] For lazy time coding.
 
-> npm install -g @vscode/vsce
+<p align="center">
+  <img alt="bear-theme-snap" width="80%" src="/overdrive-theme-1.png">
+</p>
 
-**Package your theme:**
+<p align="center">
+  <img alt="bear-theme-snap-2" width="80%" src="/overdrive-theme-2.png">
+</p>
 
-> vsce package
+The theme base on [vscode theme-defaults](https://github.com/Microsoft/vscode/tree/master/extensions/theme-defaults).
 
-This creates a .vsix file (e.g., overdrive-0.0.1.vsix).
+## In preview
 
-**Install in VS Code:**
+The font in preview is [Dank Mono](https://dank.sh/)
 
-> code --install-extension overdrive-0.0.1.vsix
+## Other
 
-**Enjoy!**
+The theme will be updated from time to time, if you have good suggestions welcome to put [issues](https://github.com/StenlyAndika/overdrive-theme/issues).

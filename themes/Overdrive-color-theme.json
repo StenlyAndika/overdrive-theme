@@ -39,8 +39,8 @@
 		"titleBar.inactiveForeground": "#707070",
 		// Tab
 		"tab.border": "#101010",
-		"tab.activeBackground": "#161616",
-		"tab.activeBorder": "#FFFF00",
+		"tab.activeBackground": "#101010",
+		// "tab.activeBorder": "#FFFF00",
 		"tab.inactiveBackground": "#101010",
 		// Status bar
 		"statusBar.debuggingForeground": "#FFF",

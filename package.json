@@ -1,13 +1,13 @@
 {
   "name": "overdrive",
   "displayName": "Overdrive",
-  "publisher": "stenlyandika",
-  "description": "Simple dark theme for VS Code based on Stenly Andika's color palette.",
-  "version": "0.0.1",
+  "publisher": "StenlyAndika",
+  "description": "Simple dark theme for VS Code.",
+  "version": "1.0.2",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/StenlyAndika/vscode-overdrive-color-theme.git"
+    "url": "https://github.com/StenlyAndika/overdrive-theme.git"
   },
   "engines": {
     "vscode": "^1.101.0"
@@ -15,6 +15,16 @@
   "categories": [
     "Themes"
   ],
+    "keywords": [
+        "theme",
+        "dark",
+        "color theme",
+        "over",
+        "overdrive",
+        "overdrive theme",
+        "sten",
+        "stenly"
+    ],
   "contributes": {
     "themes": [
       {
