@@ -1,7 +1,7 @@
 <h1 align="center">Overdrive Theme</h1>
-<p align="center">
-  <img alt="icon" width="20%" src="https://raw.githubusercontent.com/shaodahong/theme-bear/master/icon.png">
-</p>
+<!-- <p align="center">
+  <img alt="icon" width="20%" src="">
+</p> -->
 
 A simple and friendly vscode theme.
 
